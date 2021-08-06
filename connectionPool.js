@@ -9,9 +9,9 @@ createconnection =  async  () => {
     connection = mysql.createConnection({
         host: "localhost",
         port: "3306",
-        user: "nourhanms",
-        password: "nour123",
-        database:"rosca"
+        user: "",
+        password: "",
+        database:""
       });
       console.log("connecting");
       try{
@@ -29,9 +29,9 @@ createPoolConnection = async () => {
         connectionLimit : 140,
         host: "localhost",
         port: "3306",
-        user: "nourhanms",
-        password: "nour123",
-        database:"rosca"
+        user: "",
+        password: "",
+        database:""
       });
     console.log("new pool connection created");
 }

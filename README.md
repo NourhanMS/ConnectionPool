@@ -1,5 +1,5 @@
 # ConnectionPool
-This script simulates the difference between queryng database server using single instance VS using connection pool.
+This script simulates the difference between querying database server using single instance VS using connection pool.
 
 Notes:
 1) Adjust your database connecton configurations inside createconnection and createPoolConnection functions
